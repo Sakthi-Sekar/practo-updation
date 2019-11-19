@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [suite run]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" parallel="tests" name="addtocart(failed)">
+    <classes>
+      <class name="com.atmecs.practo.testscripts.AddToCart">
+        <methods>
+          <include name="clickOnDiagnostics"/>
+          <include name="validateAfterAdd"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.atmecs.practo.testscripts.AddToCart -->
+    </classes>
+  </test> <!-- addtocart(failed) -->
+  <test thread-count="1" parallel="tests" name="removefromcart(failed)">
+    <classes>
+      <class name="com.atmecs.practo.testscripts.RemoveFromCart">
+        <methods>
+          <include name="clickOnDiagnostics"/>
+          <include name="validateAfterAdd"/>
+          <include name="cartAfterRemovalOfSample"/>
+          <include name="setup"/>
+          <include name="validateCartAfterRemoval"/>
+        </methods>
+      </class> <!-- com.atmecs.practo.testscripts.RemoveFromCart -->
+    </classes>
+  </test> <!-- removefromcart(failed) -->
+</suite> <!-- Failed suite [suite run] -->

@@ -1,0 +1,25 @@
+<menu>
+
+	<selectanycityorlocality>
+	(//div[text()='Mumbai'])[1]
+	</selectanycityorlocality>
+	<valuecbc>CBC Test</valuecbc>
+	<searchfortestsandprofiles>//input[@id='omniSearch']
+	</searchfortestsandprofiles>
+	<cbctest>#omniSearch</cbctest>
+	<addtocartclick>//div[text()='Add to Cart']</addtocartclick>
+	<removesymbolcbctest>(//i[@class='c-search__icon--remove icon-ic_cross
+		o-font-size--16'])[2]
+	</removesymbolcbctest>
+	<selecttestsseriumlipase>#omniSearch</selecttestsseriumlipase>
+	<seriumlipaseselect>//input[@value='Serum Lipase ']
+	</seriumlipaseselect>
+	<serumlipase>#omniSearch</serumlipase>
+	<addseriumlipasetocart>//div[text()='Add to Cart']
+	</addseriumlipasetocart>
+	<removesymbolseriumlipase>(//i[@class='c-search__icon--remove
+		icon-ic_cross o-font-size--16'])[2]
+	</removesymbolseriumlipase>
+	<select.t3t4tsh>#omniSearch</select.t3t4tsh>
+	<addtocartt3t4tsh>//div[text()='Add to Cart']</addtocartt3t4tsh>
+</menu>

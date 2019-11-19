@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [suitename]" verbose="2">
+  <test thread-count="3" parallel="tests" name="Test validate ie(failed)" verbose="2">
+    <parameter name="browsername" value="ie"/>
+    <classes>
+      <class name="com.atmecs.practo.testscripts.AddToCart">
+        <methods>
+          <include name="selectCity"/>
+        </methods>
+      </class> <!-- com.atmecs.practo.testscripts.AddToCart -->
+    </classes>
+  </test> <!-- Test validate ie(failed) -->
+  <test thread-count="3" parallel="tests" name="Test validate chrome(failed)" verbose="2">
+    <parameter name="browsername" value="chrome"/>
+    <classes>
+      <class name="com.atmecs.practo.testscripts.AddToCart">
+        <methods>
+          <include name="selectCity"/>
+          <include name="clickOnDiagnostics"/>
+        </methods>
+      </class> <!-- com.atmecs.practo.testscripts.AddToCart -->
+    </classes>
+  </test> <!-- Test validate chrome(failed) -->
+  <test thread-count="3" parallel="tests" name="Test validate firefox(failed)" verbose="2">
+    <parameter name="browsername" value="firefox"/>
+    <classes>
+      <class name="com.atmecs.practo.testscripts.AddToCart">
+        <methods>
+          <include name="selectCity"/>
+          <include name="clickOnDiagnostics"/>
+        </methods>
+      </class> <!-- com.atmecs.practo.testscripts.AddToCart -->
+    </classes>
+  </test> <!-- Test validate firefox(failed) -->
+</suite> <!-- Failed suite [suitename] -->

@@ -1,0 +1,12 @@
+#set( $symbol_pound = '#' )
+#set( $symbol_dollar = '$' )
+#set( $symbol_escape = '\' )
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!--Add test files here -->
+<suite name="${artifactId}">
+	<suite-files>
+		<suite-file
+			path="C:${symbol_escape}Users${symbol_escape}sakthi.sekar${symbol_escape}eclipse-workspace${symbol_escape}${artifactId}${symbol_escape}Resources${symbol_escape}suites${symbol_escape}RemoveFromCart.xml" />
+	</suite-files>
+</suite>
